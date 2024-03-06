@@ -1,0 +1,95 @@
+[2024-02-04T11:00:23.950Z] [32minfo[39m: POST /register
+[2024-02-04T11:00:24.018Z] [32minfo[39m: POST /register, return 200
+[2024-02-04T11:00:33.333Z] [32minfo[39m: Player connected! dWiN3rgXcY-i26S2AAAF
+[2024-02-04T11:00:45.190Z] [32minfo[39m: Player connected! vh478K6c-RV9JPv7AAAH
+[2024-02-04T11:00:55.225Z] [32minfo[39m: Player connected! ONN93t6jiw35WTIUAAAJ
+[2024-02-04T11:01:23.342Z] [32minfo[39m: Player connected! PQmEYulxKn1nMtgJAAAL
+[2024-02-04T11:04:26.520Z] [32minfo[39m: Player connected! Sx45lB7IBcpebkINAAAN
+[2024-02-04T11:04:42.073Z] [32minfo[39m: Player connected! 41H0VXrdf2s37J2pAAAP
+[2024-02-04T11:04:49.628Z] [32minfo[39m: Player connected! XozykOYkqjVAKKJFAAAR
+[2024-02-04T11:05:53.029Z] [32minfo[39m: Server is up and running on port 5000
+[2024-02-04T11:11:29.535Z] [32minfo[39m: Server is up and running on port 5000
+[2024-02-04T11:11:29.566Z] [32minfo[39m: POST /register
+[2024-02-04T11:11:29.710Z] [32minfo[39m: POST /register, return 200
+[2024-02-04T11:11:29.732Z] [32minfo[39m: POST /login
+[2024-02-04T11:11:29.737Z] [31merror[39m: Incorrect email or password
+[2024-02-04T11:12:26.235Z] [32minfo[39m: Server is up and running on port 5000
+[2024-02-04T11:12:26.270Z] [32minfo[39m: POST /register
+[2024-02-04T11:12:26.352Z] [31merror[39m: User already exists
+[2024-02-04T11:12:53.459Z] [32minfo[39m: Server is up and running on port 5000
+[2024-02-04T11:12:53.494Z] [32minfo[39m: POST /register
+[2024-02-04T11:12:53.577Z] [31merror[39m: User already exists
+[2024-02-04T11:14:09.361Z] [32minfo[39m: Server is up and running on port 5000
+[2024-02-04T11:14:09.395Z] [32minfo[39m: POST /register
+[2024-02-04T11:14:09.476Z] [31merror[39m: User already exists
+[2024-02-04T11:16:00.750Z] [32minfo[39m: Server is up and running on port 5000
+[2024-02-04T11:16:01.211Z] [32minfo[39m: Player connected! 8wv004A8T_imec9vAAAB
+[2024-02-04T11:21:31.341Z] [32minfo[39m: POST /login
+[2024-02-04T11:21:31.354Z] [31merror[39m: Incorrect email or password
+[2024-02-04T11:22:28.353Z] [32minfo[39m: POST /register
+[2024-02-04T11:22:28.424Z] [32minfo[39m: POST /register, return 200
+[2024-02-04T11:22:35.461Z] [32minfo[39m: POST /login
+[2024-02-04T11:22:35.512Z] [32minfo[39m: POST /login, return 200
+[2024-02-04T11:22:52.580Z] [32minfo[39m: POST /login
+[2024-02-04T11:22:52.639Z] [32minfo[39m: POST /login, return 200
+[2024-02-04T11:23:35.221Z] [32minfo[39m: Server is up and running on port 5000
+[2024-02-04T11:23:50.320Z] [32minfo[39m: POST /register
+[2024-02-04T11:23:50.386Z] [32minfo[39m: POST /register, return 200
+[2024-02-04T11:23:53.205Z] [32minfo[39m: POST /login
+[2024-02-04T11:23:53.251Z] [32minfo[39m: POST /login, return 200
+[2024-02-04T11:24:36.800Z] [32minfo[39m: POST /register
+[2024-02-04T11:24:36.959Z] [32minfo[39m: POST /register, return 200
+[2024-02-04T11:24:36.973Z] [32minfo[39m: POST /login
+[2024-02-04T11:24:37.026Z] [32minfo[39m: POST /login, return 200
+[2024-02-04T11:26:49.175Z] [32minfo[39m: Server is up and running on port 5000
+[2024-02-04T11:26:49.209Z] [32minfo[39m: POST /register
+[2024-02-04T11:26:49.286Z] [31merror[39m: User already exists
+[2024-02-04T11:27:42.809Z] [32minfo[39m: Server is up and running on port 5000
+[2024-02-04T11:27:42.843Z] [32minfo[39m: POST /register
+[2024-02-04T11:27:42.921Z] [31merror[39m: User already exists
+[2024-02-04T11:30:15.596Z] [32minfo[39m: Server is up and running on port 5000
+[2024-02-04T11:30:15.626Z] [32minfo[39m: POST /register
+[2024-02-04T11:30:15.704Z] [31merror[39m: User already exists
+[2024-02-04T11:33:12.382Z] [32minfo[39m: Server is up and running on port 5000
+[2024-02-04T11:33:12.416Z] [32minfo[39m: POST /login
+[2024-02-04T11:33:12.547Z] [32minfo[39m: POST /login, return 200
+[2024-02-04T11:35:49.035Z] [32minfo[39m: Server is up and running on port 5000
+[2024-02-04T11:35:49.068Z] [32minfo[39m: POST /login
+[2024-02-04T11:35:49.121Z] [31merror[39m: Incorrect email or password
+[2024-02-04T11:36:20.272Z] [32minfo[39m: Server is up and running on port 5000
+[2024-02-04T11:36:20.305Z] [32minfo[39m: POST /register
+[2024-02-04T11:36:20.447Z] [31merror[39m: relation "users" does not exist
+[2024-02-04T11:38:36.855Z] [32minfo[39m: Server is up and running on port 5000
+[2024-02-04T11:38:36.887Z] [32minfo[39m: POST /register
+[2024-02-04T11:38:37.005Z] [32minfo[39m: POST /register, return 200
+[2024-02-04T11:41:31.244Z] [32minfo[39m: Server is up and running on port 5000
+[2024-02-04T11:41:31.278Z] [32minfo[39m: POST /register
+[2024-02-04T11:41:31.331Z] [31merror[39m: User already exists
+[2024-02-04T11:45:13.773Z] [32minfo[39m: Server is up and running on port 5000
+[2024-02-04T11:45:13.809Z] [32minfo[39m: POST /register
+[2024-02-04T11:45:13.867Z] [31merror[39m: User already exists
+[2024-02-04T11:45:13.884Z] [32minfo[39m: POST /login
+[2024-02-04T11:45:13.911Z] [31merror[39m: relation "users" does not exist
+[2024-02-04T11:45:46.062Z] [32minfo[39m: Server is up and running on port 5000
+[2024-02-04T11:45:46.098Z] [32minfo[39m: POST /register
+[2024-02-04T11:45:46.176Z] [31merror[39m: relation "users" does not exist
+[2024-02-04T11:45:46.194Z] [32minfo[39m: POST /login
+[2024-02-04T11:45:46.197Z] [31merror[39m: relation "users" does not exist
+[2024-02-04T11:50:16.302Z] [32minfo[39m: Server is up and running on port 5000
+[2024-02-04T11:50:16.335Z] [32minfo[39m: POST /register
+[2024-02-04T11:50:16.408Z] [31merror[39m: relation "users" does not exist
+[2024-02-04T11:50:16.421Z] [32minfo[39m: POST /login
+[2024-02-04T11:50:16.427Z] [31merror[39m: relation "users" does not exist
+[2024-02-04T11:50:45.128Z] [32minfo[39m: Server is up and running on port 5000
+[2024-02-04T11:50:45.159Z] [32minfo[39m: POST /register
+[2024-02-04T11:50:45.237Z] [31merror[39m: relation "users" does not exist
+[2024-02-04T11:51:13.166Z] [32minfo[39m: Server is up and running on port 5000
+[2024-02-04T11:51:46.749Z] [32minfo[39m: Server is up and running on port 5000
+[2024-02-04T11:55:56.357Z] [32minfo[39m: Server is up and running on port 5000
+[2024-02-04T11:55:56.512Z] [32minfo[39m: POST /register
+[2024-02-04T11:55:56.576Z] [32minfo[39m: POST /register, return 200
+[2024-02-04T11:55:56.585Z] [32minfo[39m: POST /login
+[2024-02-04T11:55:56.636Z] [32minfo[39m: POST /login, return 200
+[2024-02-04T11:58:04.395Z] [32minfo[39m: Server is up and running on port 5000
+[2024-02-04T11:58:04.428Z] [32minfo[39m: POST /register
+[2024-02-04T11:58:04.482Z] [31merror[39m: User already exists

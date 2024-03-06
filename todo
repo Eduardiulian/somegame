@@ -1,0 +1,46 @@
+убрать лидерборд
+
+переделать под фабричные методы
+
+скмпилить апп с sync
+
+
+сократить дублирование даннных в тестах
+
+
+пофиксить ковредж
+пофиксить аллуре
+перед написанием 3 лабы посмотерть его лекции
+
+sudo docker-compose -f docker-compose.dev.yml up -d
+
+посмотреть докер папки:
+sudo docker system df
+
+удалить контейнеры:
+sudo docker stop $(sudo docker ps -a -q)
+sudo docker rm $(sudo docker ps -qa)
+
+удалить образы(только висячие нет контейнера):
+sudo docker image rm $(sudo docker image ls -f dangling=true -q)
+
+удалят все образы:
+sudo docker image rm $(sudo docker image ls -q)
+
+удалить тома:
+sudo docker volume rm $(sudo docker volume ls -q)
+
+очистка кеша:
+sudo docker builder prune
+
+
+удаляет git с репы:
+rm -rf .git
+
+
+khulyaea@student.bmstu.ru
+
+
+fetch  отсюда http://localhost:16686/api/traces?service=Myapp
+
+sudo curl -X GET "http://localhost:16686/api/traces?service=Myapp" -H 'Content-Type: application/json' -o report-jaeger.json

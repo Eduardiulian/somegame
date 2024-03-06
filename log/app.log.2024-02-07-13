@@ -1,0 +1,204 @@
+[2024-02-07T10:22:41.259Z] [32minfo[39m: Server is up and running on port 5000
+[2024-02-07T10:22:41.419Z] [32minfo[39m: POST /register
+[2024-02-07T10:22:41.475Z] [32minfo[39m: POST /register, return 200
+[2024-02-07T10:22:41.482Z] [32minfo[39m: POST /login
+[2024-02-07T10:22:41.528Z] [32minfo[39m: POST /login, return 200
+[2024-02-07T10:22:41.531Z] [32minfo[39m: POST /changepassword
+[2024-02-07T10:22:41.579Z] [32minfo[39m: POST /changepassword, return 200
+[2024-02-07T10:22:41.582Z] [32minfo[39m: POST /changenickname
+[2024-02-07T10:22:41.586Z] [32minfo[39m: POST /changenickname, return 200
+[2024-02-07T10:22:41.588Z] [32minfo[39m: GET /
+[2024-02-07T10:22:41.589Z] [32minfo[39m: GET /, return 200,data [object Object],[object Object],[object Object]
+[2024-02-07T10:22:41.593Z] [32minfo[39m: POST /skins/buy
+[2024-02-07T10:22:41.599Z] [32minfo[39m: POST /skins/buy, return 200
+[2024-02-07T10:22:41.602Z] [32minfo[39m: POST /skins/equip
+[2024-02-07T10:22:41.609Z] [32minfo[39m: POST /skins/equip, return 200
+[2024-02-07T10:22:41.620Z] [32minfo[39m: GET /edik
+[2024-02-07T10:22:41.629Z] [32minfo[39m: GET /edik, return 200,data [object Object]
+[2024-02-07T10:23:57.547Z] [32minfo[39m: Server is up and running on port 5000
+[2024-02-07T10:23:57.678Z] [32minfo[39m: POST /register
+[2024-02-07T10:23:57.739Z] [32minfo[39m: POST /register, return 200
+[2024-02-07T10:23:57.772Z] [32minfo[39m: POST /login
+[2024-02-07T10:23:57.835Z] [32minfo[39m: POST /login, return 200
+[2024-02-07T10:23:57.839Z] [32minfo[39m: POST /changepassword
+[2024-02-07T10:23:57.889Z] [32minfo[39m: POST /changepassword, return 200
+[2024-02-07T10:23:57.892Z] [32minfo[39m: POST /changenickname
+[2024-02-07T10:23:57.895Z] [32minfo[39m: POST /changenickname, return 200
+[2024-02-07T10:23:57.898Z] [32minfo[39m: GET /
+[2024-02-07T10:23:57.899Z] [32minfo[39m: GET /, return 200,data [object Object],[object Object],[object Object]
+[2024-02-07T10:23:57.902Z] [32minfo[39m: POST /skins/buy
+[2024-02-07T10:23:57.909Z] [32minfo[39m: POST /skins/buy, return 200
+[2024-02-07T10:23:57.911Z] [32minfo[39m: POST /skins/equip
+[2024-02-07T10:23:57.915Z] [32minfo[39m: POST /skins/equip, return 200
+[2024-02-07T10:23:57.917Z] [32minfo[39m: GET /edik
+[2024-02-07T10:23:57.921Z] [32minfo[39m: GET /edik, return 200,data [object Object]
+[2024-02-07T10:24:18.132Z] [32minfo[39m: Server is up and running on port 5000
+[2024-02-07T10:24:18.264Z] [32minfo[39m: POST /register
+[2024-02-07T10:24:18.323Z] [32minfo[39m: POST /register, return 200
+[2024-02-07T10:24:18.330Z] [32minfo[39m: POST /login
+[2024-02-07T10:24:18.376Z] [32minfo[39m: POST /login, return 200
+[2024-02-07T10:24:18.379Z] [32minfo[39m: POST /changepassword
+[2024-02-07T10:24:18.427Z] [32minfo[39m: POST /changepassword, return 200
+[2024-02-07T10:24:18.429Z] [32minfo[39m: POST /changenickname
+[2024-02-07T10:24:18.433Z] [32minfo[39m: POST /changenickname, return 200
+[2024-02-07T10:24:18.446Z] [32minfo[39m: GET /
+[2024-02-07T10:24:18.450Z] [32minfo[39m: GET /, return 200,data [object Object],[object Object],[object Object]
+[2024-02-07T10:24:18.464Z] [32minfo[39m: POST /skins/buy
+[2024-02-07T10:24:18.477Z] [32minfo[39m: POST /skins/buy, return 200
+[2024-02-07T10:24:18.481Z] [32minfo[39m: POST /skins/equip
+[2024-02-07T10:24:18.487Z] [32minfo[39m: POST /skins/equip, return 200
+[2024-02-07T10:24:18.489Z] [32minfo[39m: GET /edik
+[2024-02-07T10:24:18.493Z] [32minfo[39m: GET /edik, return 200,data [object Object]
+[2024-02-07T10:24:35.194Z] [32minfo[39m: Server is up and running on port 5000
+[2024-02-07T10:24:35.376Z] [32minfo[39m: POST /register
+[2024-02-07T10:24:35.433Z] [32minfo[39m: POST /register, return 200
+[2024-02-07T10:24:35.440Z] [32minfo[39m: POST /login
+[2024-02-07T10:24:35.485Z] [32minfo[39m: POST /login, return 200
+[2024-02-07T10:24:35.488Z] [32minfo[39m: POST /changepassword
+[2024-02-07T10:24:35.535Z] [32minfo[39m: POST /changepassword, return 200
+[2024-02-07T10:24:35.544Z] [32minfo[39m: POST /changenickname
+[2024-02-07T10:24:35.552Z] [32minfo[39m: POST /changenickname, return 200
+[2024-02-07T10:24:35.559Z] [32minfo[39m: GET /
+[2024-02-07T10:24:35.561Z] [32minfo[39m: GET /, return 200,data [object Object],[object Object],[object Object]
+[2024-02-07T10:24:35.571Z] [32minfo[39m: POST /skins/buy
+[2024-02-07T10:24:35.582Z] [32minfo[39m: POST /skins/buy, return 200
+[2024-02-07T10:24:35.586Z] [32minfo[39m: POST /skins/equip
+[2024-02-07T10:24:35.591Z] [32minfo[39m: POST /skins/equip, return 200
+[2024-02-07T10:24:35.594Z] [32minfo[39m: GET /edik
+[2024-02-07T10:24:35.597Z] [32minfo[39m: GET /edik, return 200,data [object Object]
+[2024-02-07T10:30:18.551Z] [32minfo[39m: Server is up and running on port 5000
+[2024-02-07T10:30:18.671Z] [32minfo[39m: POST /register
+[2024-02-07T10:30:18.729Z] [32minfo[39m: POST /register, return 200
+[2024-02-07T10:30:18.737Z] [32minfo[39m: POST /login
+[2024-02-07T10:30:18.783Z] [32minfo[39m: POST /login, return 200
+[2024-02-07T10:30:18.786Z] [32minfo[39m: POST /changepassword
+[2024-02-07T10:30:18.834Z] [32minfo[39m: POST /changepassword, return 200
+[2024-02-07T10:30:18.837Z] [32minfo[39m: POST /changenickname
+[2024-02-07T10:30:18.840Z] [32minfo[39m: POST /changenickname, return 200
+[2024-02-07T10:30:18.843Z] [32minfo[39m: GET /
+[2024-02-07T10:30:18.844Z] [32minfo[39m: GET /, return 200,data [object Object],[object Object],[object Object]
+[2024-02-07T10:30:18.847Z] [32minfo[39m: POST /skins/buy
+[2024-02-07T10:30:18.854Z] [32minfo[39m: POST /skins/buy, return 200
+[2024-02-07T10:30:18.856Z] [32minfo[39m: POST /skins/equip
+[2024-02-07T10:30:18.863Z] [32minfo[39m: POST /skins/equip, return 200
+[2024-02-07T10:30:18.868Z] [32minfo[39m: GET /edik
+[2024-02-07T10:30:18.875Z] [32minfo[39m: GET /edik, return 200,data [object Object]
+[2024-02-07T10:37:53.958Z] [32minfo[39m: Server is up and running on port 5000
+[2024-02-07T10:37:54.140Z] [32minfo[39m: POST /register
+[2024-02-07T10:37:54.204Z] [32minfo[39m: POST /register, return 200
+[2024-02-07T10:37:54.235Z] [32minfo[39m: POST /login
+[2024-02-07T10:37:54.284Z] [32minfo[39m: POST /login, return 200
+[2024-02-07T10:37:54.288Z] [32minfo[39m: POST /changepassword
+[2024-02-07T10:37:54.337Z] [32minfo[39m: POST /changepassword, return 200
+[2024-02-07T10:37:54.340Z] [32minfo[39m: POST /changenickname
+[2024-02-07T10:37:54.344Z] [32minfo[39m: POST /changenickname, return 200
+[2024-02-07T10:37:54.346Z] [32minfo[39m: GET /
+[2024-02-07T10:37:54.347Z] [32minfo[39m: GET /, return 200,data [object Object],[object Object],[object Object]
+[2024-02-07T10:37:54.350Z] [32minfo[39m: POST /skins/buy
+[2024-02-07T10:37:54.357Z] [32minfo[39m: POST /skins/buy, return 200
+[2024-02-07T10:37:54.359Z] [32minfo[39m: POST /skins/equip
+[2024-02-07T10:37:54.363Z] [32minfo[39m: POST /skins/equip, return 200
+[2024-02-07T10:37:54.365Z] [32minfo[39m: GET /edik
+[2024-02-07T10:37:54.369Z] [32minfo[39m: GET /edik, return 200,data [object Object]
+[2024-02-07T10:38:23.172Z] [32minfo[39m: Server is up and running on port 5000
+[2024-02-07T10:38:23.296Z] [32minfo[39m: POST /register
+[2024-02-07T10:38:23.354Z] [32minfo[39m: POST /register, return 200
+[2024-02-07T10:38:23.361Z] [32minfo[39m: POST /login
+[2024-02-07T10:38:23.406Z] [32minfo[39m: POST /login, return 200
+[2024-02-07T10:38:23.409Z] [32minfo[39m: POST /changepassword
+[2024-02-07T10:38:23.457Z] [32minfo[39m: POST /changepassword, return 200
+[2024-02-07T10:38:23.460Z] [32minfo[39m: POST /changenickname
+[2024-02-07T10:38:23.463Z] [32minfo[39m: POST /changenickname, return 200
+[2024-02-07T10:38:23.466Z] [32minfo[39m: GET /
+[2024-02-07T10:38:23.467Z] [32minfo[39m: GET /, return 200,data [object Object],[object Object],[object Object]
+[2024-02-07T10:38:23.470Z] [32minfo[39m: POST /skins/buy
+[2024-02-07T10:38:23.477Z] [32minfo[39m: POST /skins/buy, return 200
+[2024-02-07T10:38:23.480Z] [32minfo[39m: POST /skins/equip
+[2024-02-07T10:38:23.484Z] [32minfo[39m: POST /skins/equip, return 200
+[2024-02-07T10:38:23.486Z] [32minfo[39m: GET /edik
+[2024-02-07T10:38:23.490Z] [32minfo[39m: GET /edik, return 200,data [object Object]
+[2024-02-07T10:46:03.456Z] [32minfo[39m: Server is up and running on port 5000
+[2024-02-07T10:46:03.582Z] [32minfo[39m: POST /register
+[2024-02-07T10:46:03.640Z] [32minfo[39m: POST /register, return 200
+[2024-02-07T10:46:03.647Z] [32minfo[39m: POST /login
+[2024-02-07T10:46:03.692Z] [32minfo[39m: POST /login, return 200
+[2024-02-07T10:46:03.695Z] [32minfo[39m: POST /changepassword
+[2024-02-07T10:46:03.744Z] [32minfo[39m: POST /changepassword, return 200
+[2024-02-07T10:46:03.747Z] [32minfo[39m: POST /changenickname
+[2024-02-07T10:46:03.750Z] [32minfo[39m: POST /changenickname, return 200
+[2024-02-07T10:46:03.752Z] [32minfo[39m: GET /
+[2024-02-07T10:46:03.753Z] [32minfo[39m: GET /, return 200,data [object Object],[object Object],[object Object]
+[2024-02-07T10:46:03.757Z] [32minfo[39m: POST /skins/buy
+[2024-02-07T10:46:03.763Z] [32minfo[39m: POST /skins/buy, return 200
+[2024-02-07T10:46:03.766Z] [32minfo[39m: POST /skins/equip
+[2024-02-07T10:46:03.770Z] [32minfo[39m: POST /skins/equip, return 200
+[2024-02-07T10:46:03.772Z] [32minfo[39m: GET /edik
+[2024-02-07T10:46:03.776Z] [32minfo[39m: GET /edik, return 200,data [object Object]
+[2024-02-07T10:49:09.842Z] [32minfo[39m: Server is up and running on port 5000
+[2024-02-07T10:49:09.966Z] [32minfo[39m: POST /register
+[2024-02-07T10:49:10.026Z] [32minfo[39m: POST /register, return 200
+[2024-02-07T10:49:10.033Z] [32minfo[39m: POST /login
+[2024-02-07T10:49:10.081Z] [32minfo[39m: POST /login, return 200
+[2024-02-07T10:49:10.086Z] [32minfo[39m: POST /changepassword
+[2024-02-07T10:49:10.138Z] [32minfo[39m: POST /changepassword, return 200
+[2024-02-07T10:49:10.141Z] [32minfo[39m: POST /changenickname
+[2024-02-07T10:49:10.144Z] [32minfo[39m: POST /changenickname, return 200
+[2024-02-07T10:49:10.146Z] [32minfo[39m: GET /
+[2024-02-07T10:49:10.147Z] [32minfo[39m: GET /, return 200,data [object Object],[object Object],[object Object]
+[2024-02-07T10:49:10.150Z] [32minfo[39m: POST /skins/buy
+[2024-02-07T10:49:10.157Z] [32minfo[39m: POST /skins/buy, return 200
+[2024-02-07T10:49:10.159Z] [32minfo[39m: POST /skins/equip
+[2024-02-07T10:49:10.163Z] [32minfo[39m: POST /skins/equip, return 200
+[2024-02-07T10:49:10.165Z] [32minfo[39m: GET /edik
+[2024-02-07T10:49:10.168Z] [32minfo[39m: GET /edik, return 200,data [object Object]
+[2024-02-07T10:49:45.254Z] [32minfo[39m: Server is up and running on port 5000
+[2024-02-07T10:49:45.448Z] [32minfo[39m: POST /register
+[2024-02-07T10:49:45.506Z] [32minfo[39m: POST /register, return 200
+[2024-02-07T10:49:45.513Z] [32minfo[39m: POST /login
+[2024-02-07T10:49:45.560Z] [32minfo[39m: POST /login, return 200
+[2024-02-07T10:49:45.563Z] [32minfo[39m: POST /changepassword
+[2024-02-07T10:49:45.612Z] [32minfo[39m: POST /changepassword, return 200
+[2024-02-07T10:49:45.615Z] [32minfo[39m: POST /changenickname
+[2024-02-07T10:49:45.619Z] [32minfo[39m: POST /changenickname, return 200
+[2024-02-07T10:49:45.621Z] [32minfo[39m: GET /
+[2024-02-07T10:49:45.622Z] [32minfo[39m: GET /, return 200,data [object Object],[object Object],[object Object]
+[2024-02-07T10:49:45.627Z] [32minfo[39m: POST /skins/buy
+[2024-02-07T10:49:45.634Z] [32minfo[39m: POST /skins/buy, return 200
+[2024-02-07T10:49:45.636Z] [32minfo[39m: POST /skins/equip
+[2024-02-07T10:49:45.641Z] [32minfo[39m: POST /skins/equip, return 200
+[2024-02-07T10:49:45.643Z] [32minfo[39m: GET /edik
+[2024-02-07T10:49:45.646Z] [32minfo[39m: GET /edik, return 200,data [object Object]
+[2024-02-07T10:50:15.497Z] [32minfo[39m: Server is up and running on port 5000
+[2024-02-07T10:50:15.621Z] [32minfo[39m: POST /register
+[2024-02-07T10:50:15.680Z] [32minfo[39m: POST /register, return 200
+[2024-02-07T10:50:15.687Z] [32minfo[39m: POST /login
+[2024-02-07T10:50:15.733Z] [32minfo[39m: POST /login, return 200
+[2024-02-07T10:50:15.737Z] [32minfo[39m: POST /changepassword
+[2024-02-07T10:50:15.789Z] [32minfo[39m: POST /changepassword, return 200
+[2024-02-07T10:50:15.799Z] [32minfo[39m: POST /changenickname
+[2024-02-07T10:50:15.811Z] [32minfo[39m: POST /changenickname, return 200
+[2024-02-07T10:50:15.820Z] [32minfo[39m: GET /
+[2024-02-07T10:50:15.823Z] [32minfo[39m: GET /, return 200,data [object Object],[object Object],[object Object]
+[2024-02-07T10:50:15.831Z] [32minfo[39m: POST /skins/buy
+[2024-02-07T10:50:15.843Z] [32minfo[39m: POST /skins/buy, return 200
+[2024-02-07T10:50:15.846Z] [32minfo[39m: POST /skins/equip
+[2024-02-07T10:50:15.851Z] [32minfo[39m: POST /skins/equip, return 200
+[2024-02-07T10:50:15.853Z] [32minfo[39m: GET /edik
+[2024-02-07T10:50:15.856Z] [32minfo[39m: GET /edik, return 200,data [object Object]
+[2024-02-07T10:50:38.423Z] [32minfo[39m: Server is up and running on port 5000
+[2024-02-07T10:50:38.596Z] [32minfo[39m: POST /register
+[2024-02-07T10:50:38.653Z] [32minfo[39m: POST /register, return 200
+[2024-02-07T10:50:38.660Z] [32minfo[39m: POST /login
+[2024-02-07T10:50:38.705Z] [32minfo[39m: POST /login, return 200
+[2024-02-07T10:50:38.709Z] [32minfo[39m: POST /changepassword
+[2024-02-07T10:50:38.758Z] [32minfo[39m: POST /changepassword, return 200
+[2024-02-07T10:50:38.766Z] [32minfo[39m: POST /changenickname
+[2024-02-07T10:50:38.775Z] [32minfo[39m: POST /changenickname, return 200
+[2024-02-07T10:50:38.781Z] [32minfo[39m: GET /
+[2024-02-07T10:50:38.783Z] [32minfo[39m: GET /, return 200,data [object Object],[object Object],[object Object]
+[2024-02-07T10:50:38.793Z] [32minfo[39m: POST /skins/buy
+[2024-02-07T10:50:38.804Z] [32minfo[39m: POST /skins/buy, return 200
+[2024-02-07T10:50:38.808Z] [32minfo[39m: POST /skins/equip
+[2024-02-07T10:50:38.813Z] [32minfo[39m: POST /skins/equip, return 200
+[2024-02-07T10:50:38.816Z] [32minfo[39m: GET /edik
+[2024-02-07T10:50:38.819Z] [32minfo[39m: GET /edik, return 200,data [object Object]

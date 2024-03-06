@@ -1,0 +1,34 @@
+[2024-02-05T11:21:55.565Z] [32minfo[39m: Server is up and running on port 5000
+[2024-02-05T11:21:55.759Z] [32minfo[39m: POST /register
+[2024-02-05T11:21:55.817Z] [32minfo[39m: POST /register, return 200
+[2024-02-05T11:21:55.824Z] [32minfo[39m: POST /login
+[2024-02-05T11:21:55.868Z] [32minfo[39m: POST /login, return 200
+[2024-02-05T11:21:55.872Z] [32minfo[39m: POST /changepassword
+[2024-02-05T11:21:55.918Z] [32minfo[39m: POST /changepassword, return 200
+[2024-02-05T11:21:55.921Z] [32minfo[39m: POST /changenickname
+[2024-02-05T11:21:55.924Z] [32minfo[39m: POST /changenickname, return 200
+[2024-02-05T11:21:55.927Z] [32minfo[39m: GET /
+[2024-02-05T11:21:55.928Z] [32minfo[39m: GET /, return 200,data [object Object],[object Object],[object Object]
+[2024-02-05T11:21:55.931Z] [32minfo[39m: POST /skins/buy
+[2024-02-05T11:21:55.938Z] [32minfo[39m: POST /skins/buy, return 200
+[2024-02-05T11:21:55.941Z] [32minfo[39m: POST /skins/equip
+[2024-02-05T11:21:55.945Z] [32minfo[39m: POST /skins/equip, return 200
+[2024-02-05T11:21:55.947Z] [32minfo[39m: GET /edik
+[2024-02-05T11:21:55.950Z] [32minfo[39m: GET /edik, return 200,data [object Object]
+[2024-02-05T11:37:37.008Z] [32minfo[39m: Server is up and running on port 5000
+[2024-02-05T11:37:37.135Z] [32minfo[39m: POST /register
+[2024-02-05T11:37:37.195Z] [32minfo[39m: POST /register, return 200
+[2024-02-05T11:37:37.203Z] [32minfo[39m: POST /login
+[2024-02-05T11:37:37.249Z] [32minfo[39m: POST /login, return 200
+[2024-02-05T11:37:37.255Z] [32minfo[39m: POST /changepassword
+[2024-02-05T11:37:37.307Z] [32minfo[39m: POST /changepassword, return 200
+[2024-02-05T11:37:37.310Z] [32minfo[39m: POST /changenickname
+[2024-02-05T11:37:37.314Z] [32minfo[39m: POST /changenickname, return 200
+[2024-02-05T11:37:37.316Z] [32minfo[39m: GET /
+[2024-02-05T11:37:37.318Z] [32minfo[39m: GET /, return 200,data [object Object],[object Object],[object Object]
+[2024-02-05T11:37:37.321Z] [32minfo[39m: POST /skins/buy
+[2024-02-05T11:37:37.328Z] [32minfo[39m: POST /skins/buy, return 200
+[2024-02-05T11:37:37.331Z] [32minfo[39m: POST /skins/equip
+[2024-02-05T11:37:37.335Z] [32minfo[39m: POST /skins/equip, return 200
+[2024-02-05T11:37:37.337Z] [32minfo[39m: GET /edik
+[2024-02-05T11:37:37.341Z] [32minfo[39m: GET /edik, return 200,data [object Object]

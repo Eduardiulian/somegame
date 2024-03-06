@@ -1,0 +1,15 @@
+[2023-10-04T08:11:18.501Z] [32minfo[39m: POST /auth/login
+[2023-10-04T08:11:19.699Z] [31merror[39m: Incorrect email or password
+[2023-10-04T08:11:26.246Z] [32minfo[39m: POST /auth/login
+[2023-10-04T08:11:26.252Z] [31merror[39m: Incorrect email or password
+[2023-10-04T08:11:36.167Z] [32minfo[39m: POST /auth/register
+[2023-10-04T08:11:36.388Z] [32minfo[39m: POST /auth/register, return 200
+[2023-10-04T08:11:44.286Z] [32minfo[39m: POST /auth/login
+[2023-10-04T08:11:44.508Z] [32minfo[39m: POST /auth/login, return 200
+[2023-10-04T08:11:47.095Z] [32minfo[39m: GET /account/info
+[2023-10-04T08:11:47.105Z] [32minfo[39m: GET /account/info, return 200,data [object Object]
+[2023-10-04T08:11:52.478Z] [32minfo[39m: POST /account/changenickname
+[2023-10-04T08:11:52.597Z] [32minfo[39m: POST /account/changenickname, return 200
+[2023-10-04T08:21:50.341Z] [32minfo[39m: Server is up and running on port 5000
+[2023-10-04T08:22:14.784Z] [32minfo[39m: Server is up and running on port 5000
+[2023-10-04T08:42:20.200Z] [32minfo[39m: Server is up and running on port 5000

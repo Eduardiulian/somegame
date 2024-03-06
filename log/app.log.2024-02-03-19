@@ -1,0 +1,13 @@
+[2024-02-03T16:50:55.893Z] [32minfo[39m: Server is up and running on port 5000
+[2024-02-03T16:50:56.099Z] [32minfo[39m: POST /login
+[2024-02-03T16:50:56.099Z] [31merror[39m: Cannot read properties of undefined (reading 'authService')
+[2024-02-03T16:53:05.438Z] [32minfo[39m: Server is up and running on port 5000
+[2024-02-03T16:54:04.516Z] [32minfo[39m: Player connected! y0Yr0cxawrBi0NVIAAAB
+[2024-02-03T16:54:22.243Z] [32minfo[39m: POST /register
+[2024-02-03T16:54:22.243Z] [31merror[39m: Cannot read properties of undefined (reading 'authService')
+[2024-02-03T16:58:10.772Z] [32minfo[39m: POST /register
+[2024-02-03T16:58:10.773Z] [31merror[39m: Cannot read properties of undefined (reading 'authService')
+[2024-02-03T16:59:04.608Z] [32minfo[39m: Server is up and running on port 5000
+[2024-02-03T16:59:08.144Z] [32minfo[39m: Player connected! bKxIc_oFJrMNVRXgAAAB
+[2024-02-03T16:59:55.010Z] [32minfo[39m: Server is up and running on port 5000
+[2024-02-03T16:59:55.815Z] [32minfo[39m: Player connected! AAGe1Oexp-Ey-x0OAAAB

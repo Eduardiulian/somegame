@@ -1,0 +1,15 @@
+version: '3.5'
+
+services:
+  db_auth:
+    build:
+      dockerfile: Dockerfile
+      context: ./
+      target: db
+    environment:
+      - POSTGRES_USER=root
+      - POSTGRES_PASSWORD=root
+    container_name: db_game
+    ports:
+      - "5432:5432"
+    image: postgres:latest

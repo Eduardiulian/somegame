@@ -1,0 +1,72 @@
+stages:
+  - build
+  - test
+  - report
+
+.setup_test_env:
+  before_script:
+    - rm -rf ./allure-report/*
+    - mkdir -p ./allure-report
+    - export ALLURE_OUTPUT_PATH=./allure-report
+
+image:
+  name: docker/compose:latest
+
+services:
+  - docker:dind
+
+test-unit:
+  stage: test
+  extends: .setup_test_env
+  script:
+    - docker build -t mybuildimage --target build .
+    - docker run --rm -i --net="host" --name test mybuildimage npm run test-unit
+  artifacts:
+    paths:
+      - allure-report
+    expire_in: 1 hour
+
+test-integration:
+  stage: test
+  extends: .setup_test_env
+  script:
+    - docker-compose down
+    - docker-compose -f docker-compose.yml build
+    - docker-compose -f docker-compose.yml run nodejs-app npm run test-integration
+    - docker-compose down
+  needs:
+    - test-unit
+  artifacts:
+    paths:
+      - allure-report
+    expire_in: 1 hour
+
+test-e2e:
+  stage: test
+  extends: .setup_test_env
+  script:
+    - docker-compose down
+    - docker-compose -f docker-compose.yml build
+    - docker-compose -f docker-compose.yml run nodejs-app npm run test-e2e
+    - docker-compose down
+  needs:
+    - test-integration
+  artifacts:
+    paths:
+      - allure-report
+    expire_in: 1 hour
+
+generate-allure-result:
+  stage: report
+  image: pradapjackie/allure-reports-generation:1.0
+  artifacts:
+    paths:
+      - allure-results
+      - allure-report
+    when: always
+    expire_in: 1 days
+  script:
+    - allure generate allure-results -o allure-report
+  allow_failure: true
+  rules:
+    - when: always

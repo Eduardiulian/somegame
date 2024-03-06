@@ -1,0 +1,19 @@
+[2024-02-06T14:03:57.287Z] [32minfo[39m: Server is up and running on port 5000
+[2024-02-06T14:12:25.076Z] [32minfo[39m: Server is up and running on port 5000
+[2024-02-06T14:12:36.060Z] [32minfo[39m: Server is up and running on port 5000
+[2024-02-06T14:13:03.953Z] [32minfo[39m: POST /login
+[2024-02-06T14:13:03.966Z] [31merror[39m: Incorrect email or password
+[2024-02-06T14:15:58.466Z] [32minfo[39m: Server is up and running on port 5000
+[2024-02-06T14:16:13.641Z] [32minfo[39m: POST /login
+[2024-02-06T14:16:13.654Z] [31merror[39m: Incorrect email or password
+[2024-02-06T14:16:33.104Z] [32minfo[39m: POST /login
+[2024-02-06T14:16:33.112Z] [31merror[39m: Incorrect email or password
+[2024-02-06T14:29:42.793Z] [32minfo[39m: Server is up and running on port 5000
+[2024-02-06T14:36:04.984Z] [32minfo[39m: Server is up and running on port 5000
+[2024-02-06T14:36:35.720Z] [32minfo[39m: Server is up and running on port 5000
+[2024-02-06T14:37:26.106Z] [32minfo[39m: Server is up and running on port 5000
+[2024-02-06T14:37:50.452Z] [32minfo[39m: Server is up and running on port 5000
+[2024-02-06T14:40:59.495Z] [32minfo[39m: Server is up and running on port 5000
+[2024-02-06T14:42:04.716Z] [32minfo[39m: Server is up and running on port 5000
+[2024-02-06T14:42:14.296Z] [32minfo[39m: Server is up and running on port 5000
+[2024-02-06T14:48:44.066Z] [32minfo[39m: Server is up and running on port 5000

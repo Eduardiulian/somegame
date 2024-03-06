@@ -1,0 +1,19 @@
+[2024-02-04T11:11:29.737Z] [31merror[39m: Incorrect email or password
+[2024-02-04T11:12:26.352Z] [31merror[39m: User already exists
+[2024-02-04T11:12:53.577Z] [31merror[39m: User already exists
+[2024-02-04T11:14:09.476Z] [31merror[39m: User already exists
+[2024-02-04T11:21:31.354Z] [31merror[39m: Incorrect email or password
+[2024-02-04T11:26:49.286Z] [31merror[39m: User already exists
+[2024-02-04T11:27:42.921Z] [31merror[39m: User already exists
+[2024-02-04T11:30:15.704Z] [31merror[39m: User already exists
+[2024-02-04T11:35:49.121Z] [31merror[39m: Incorrect email or password
+[2024-02-04T11:36:20.447Z] [31merror[39m: relation "users" does not exist
+[2024-02-04T11:41:31.331Z] [31merror[39m: User already exists
+[2024-02-04T11:45:13.867Z] [31merror[39m: User already exists
+[2024-02-04T11:45:13.911Z] [31merror[39m: relation "users" does not exist
+[2024-02-04T11:45:46.176Z] [31merror[39m: relation "users" does not exist
+[2024-02-04T11:45:46.197Z] [31merror[39m: relation "users" does not exist
+[2024-02-04T11:50:16.408Z] [31merror[39m: relation "users" does not exist
+[2024-02-04T11:50:16.427Z] [31merror[39m: relation "users" does not exist
+[2024-02-04T11:50:45.237Z] [31merror[39m: relation "users" does not exist
+[2024-02-04T11:58:04.482Z] [31merror[39m: User already exists

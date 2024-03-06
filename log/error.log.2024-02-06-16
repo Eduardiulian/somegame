@@ -1,0 +1,8 @@
+[2024-02-06T13:36:49.500Z] [31merror[39m: insert or update on table "user_skins" violates foreign key constraint "user_skins_skin_id_fkey"
+[2024-02-06T13:37:25.042Z] [31merror[39m: User already exists
+[2024-02-06T13:37:41.695Z] [31merror[39m: User already exists
+[2024-02-06T13:37:42.766Z] [31merror[39m: User already exists
+[2024-02-06T13:38:02.165Z] [31merror[39m: insert or update on table "user_skins" violates foreign key constraint "user_skins_skin_id_fkey"
+[2024-02-06T13:39:33.810Z] [31merror[39m: insert or update on table "user_skins" violates foreign key constraint "user_skins_skin_id_fkey"
+[2024-02-06T13:42:14.389Z] [31merror[39m: insert or update on table "user_skins" violates foreign key constraint "user_skins_skin_id_fkey"
+[2024-02-06T13:58:19.310Z] [31merror[39m: insert or update on table "user_skins" violates foreign key constraint "user_skins_skin_id_fkey"

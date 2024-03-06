@@ -1,0 +1,3 @@
+[2024-02-03T16:50:56.099Z] [31merror[39m: Cannot read properties of undefined (reading 'authService')
+[2024-02-03T16:54:22.243Z] [31merror[39m: Cannot read properties of undefined (reading 'authService')
+[2024-02-03T16:58:10.773Z] [31merror[39m: Cannot read properties of undefined (reading 'authService')

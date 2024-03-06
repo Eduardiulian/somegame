@@ -1,0 +1,26 @@
+[2024-01-31T14:16:04.816Z] [32minfo[39m: Server is up and running on port 5000
+[2024-01-31T14:17:32.227Z] [32minfo[39m: Player connected! -uiaC0jt273O7BsCAAAB
+[2024-01-31T14:24:03.525Z] [32minfo[39m: Player connected! YIlgefLsL5B8gkQlAAAD
+[2024-01-31T14:24:23.708Z] [32minfo[39m: POST /auth/register
+[2024-01-31T14:24:26.489Z] [32minfo[39m: POST /auth/register
+[2024-01-31T14:24:33.712Z] [31merror[39m: Operation `users.findOne()` buffering timed out after 10000ms
+[2024-01-31T14:24:36.490Z] [31merror[39m: Operation `users.findOne()` buffering timed out after 10000ms
+[2024-01-31T14:24:40.667Z] [32minfo[39m: Player connected! tk8iVECAZU5tesBvAAAF
+[2024-01-31T14:24:46.304Z] [32minfo[39m: POST /auth/register
+[2024-01-31T14:24:54.722Z] [32minfo[39m: Player connected! iPJS3xuHmZfhynG7AAAH
+[2024-01-31T14:24:56.305Z] [31merror[39m: Operation `users.findOne()` buffering timed out after 10000ms
+[2024-01-31T14:25:45.119Z] [32minfo[39m: POST /auth/register
+[2024-01-31T14:25:52.630Z] [32minfo[39m: POST /auth/register
+[2024-01-31T14:25:55.120Z] [31merror[39m: Operation `users.findOne()` buffering timed out after 10000ms
+[2024-01-31T14:26:02.631Z] [31merror[39m: Operation `users.findOne()` buffering timed out after 10000ms
+[2024-01-31T14:39:21.381Z] [32minfo[39m: Server is up and running on port 5000
+[2024-01-31T14:40:34.245Z] [32minfo[39m: Player connected! kGaBG0vId9EyNa-nAAAB
+[2024-01-31T14:40:49.116Z] [32minfo[39m: POST /auth/register
+[2024-01-31T14:40:49.186Z] [32minfo[39m: POST /auth/register, return 200
+[2024-01-31T14:41:03.733Z] [32minfo[39m: Player connected! vi2DWEbbADw5SPVoAAAD
+[2024-01-31T14:41:25.042Z] [32minfo[39m: POST /auth/register
+[2024-01-31T14:41:25.103Z] [32minfo[39m: POST /auth/register, return 200
+[2024-01-31T14:41:34.356Z] [32minfo[39m: Player connected! 01dMBsgJRX3fwrfcAAAF
+[2024-01-31T14:41:53.470Z] [32minfo[39m: Player connected! 3G5zX1eATzDZXUd1AAAH
+[2024-01-31T14:42:26.344Z] [32minfo[39m: Player connected! 2BJ9JqUgqVKryGGIAAAJ
+[2024-01-31T14:42:29.899Z] [32minfo[39m: Player connected! munSG-OA2rbEy-x4AAAL

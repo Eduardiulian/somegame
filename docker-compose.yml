@@ -1,0 +1,70 @@
+version: '3.5'
+
+volumes:
+  postgres:
+
+services:
+  nodejs-app:
+    build:
+      dockerfile: Dockerfile
+      context: ./
+      target: build
+    container_name: myapp
+    ports:
+      - 8000:4242
+    depends_on:
+      - db_auth
+      #- jaeger
+    image: node:18.19.0
+    command: npm install
+    stdin_open: true
+    tty: true
+    volumes:
+      - .:/usr/app/
+      - /usr/app/node_modules
+    #links:
+    #    - db_auth  
+    environment:
+        SEQ_DB: postgres
+        SEQ_USER: username
+        SEQ_PW: pgpassword
+        PORT: 4242
+        DATABASE_URL: "postgres://username:pgpassword@db_auth:5432/postgres"
+        #JAEGER_AGENT_HOST: jaeger
+    networks:
+      - my_persistent_network  
+  db_auth:
+    build:
+      dockerfile: Dockerfile
+      context: ./
+      target: db
+    environment:
+      POSTGRES_USER: username
+      POSTGRES_PASSWORD: pgpassword
+    #container_name: db_game
+    ports:
+      - "5432:5432"
+    image: postgres:latest
+    networks:
+      - my_persistent_network
+    volumes:
+      - postgres:/var/lib/postgresql/data  
+
+networks:
+  my_persistent_network:
+
+
+
+
+  #jaeger:
+  #  image: jaegertracing/all-in-one:latest
+  #  ports:
+  #    - "5775:5775/udp"
+  #    - "6831:6831/udp"
+  #    - "6832:6832/udp"
+  #    - "5778:5778"
+  #    - "16686:16686"
+  #    - "14268:14268"
+  #    - "9411:9411"
+  #  networks:
+  #    - my_persistent_network   
