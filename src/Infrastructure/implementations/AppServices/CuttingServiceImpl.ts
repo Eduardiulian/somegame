@@ -111,7 +111,7 @@ export class CuttingService implements ICuttingService {
 
         return null;
     }
-    getcollisionFlag(poly:any, line:any) {
+    getcollisionFlag(poly:any, line:any):boolean {
         let Vertices = poly.coordinates;
         for (let i = 0; i < Vertices.length; i++) {
             let nextIndex = (i + 1) % Vertices.length

@@ -19,11 +19,15 @@ let app = express();
 app.use(cookieParser());
 app.use(bodyParser.json())
 app.use(cors({
-  credentials: true, origin: [
-    'http://localhost:3001'], exposedHeaders: ['set-cookie'],
-  allowedHeaders: ['Content-Type', 'Authorization', 'Access-Control-Allow-Origin']
+  credentials: true, origin: '*'
 }));
 
+app.use((req, res, next) => {
+  res.header('Access-Control-Allow-Origin', 'http://5.35.89.173');
+  res.header('Access-Control-Allow-Headers', 'Content-Type, Authorization');
+  res.header('Access-Control-Allow-Methods', 'GET, POST, PUT, DELETE, OPTIONS');
+  next();
+});
 
 
 //
@@ -53,6 +57,7 @@ socketio.on('connection', socket => {
   socket.on('INPUT', handleInput);
   socket.on('INPUT_KEY', handleInputKey);
   socket.on('SHOOT_KEY', handleShootKey);
+  socket.on('SPACE_KEY', handleSpaceKey);
   socket.on('disconnect', onDisconnect);
 
 });
@@ -75,7 +80,9 @@ function handleInputKey(this: io.Socket, dir: IDirection,dirAngle:number) {
 function handleShootKey(this: io.Socket, dir: number) {
   game.handleShootKey(this, dir);
 }
-
+function handleSpaceKey(this: io.Socket,) {
+  game.handleSpaceKey(this);
+}
 
 function onDisconnect(this: io.Socket) {
   game.removePlayer(this);

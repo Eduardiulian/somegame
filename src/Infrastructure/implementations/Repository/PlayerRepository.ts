@@ -29,12 +29,20 @@ export class PlayerRepository implements IPlayerRepository {
             mass: mass,
             angle: 2 * Math.PI / nsides,
             direction: { x: x, y: y } as IVector2D,
-            dirAngle:0,
+            dirAngle: 0,
             coordinates: [],
             CurNsides: nsides,
             square: 0,
             Angels: [],
             RayDistances: [],
+            //
+            Isquare: 0,
+            Kgrow: 1,
+            //
+            ProtectDelay: 5000,
+            Protected: false,
+            PossProtect: true,
+            PossDeplay: 12000
         }
         this.players.set(id, Player);
     }

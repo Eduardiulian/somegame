@@ -67,11 +67,25 @@ export class PlayerService implements IPlayerService, IUpadateService<IPlayer>, 
             }
         }
         this.trasformToIdeal(player)
-        player.coordinates = this.VerticesCoords(player)
+        player.coordinates = this.VerticesCoords(player);
+        player.square = this.calculatePolygonArea(player)
+        player.radius = this.calculateCircumcircleRadius(player,player.square)
+
     }
     setMove(player: IPlayer, dir: IDirection, dirAngle: number): void {
         player.dirAngle = dirAngle
         this.applyForce(player, dir)
+
+    }
+    setProtect(player: IPlayer): void {
+        if (player.PossProtect) {
+            player.PossProtect = false;
+            player.Protected = true;
+
+            setTimeout(() => { player.Protected = false }, player.ProtectDelay);
+
+            setTimeout(() => { player.PossProtect = true }, player.PossDeplay);
+        }
 
     }
     trasformToIdeal(player: IPlayer): void {
@@ -107,6 +121,12 @@ export class PlayerService implements IPlayerService, IUpadateService<IPlayer>, 
                 player.RayDistances[i] -= 0.06
             }
 
+        }
+        // grow square
+        if (player.Isquare > player.square) { // to fix  this.Isquare > this.square
+            for (let i = 0; i < player.RayDistances.length; i++) {
+                player.RayDistances[i] *= player.Kgrow
+            }
         }
     }
     addRaysAngles(player: IPlayer, curSides: number, indexA: number, indexB: number): boolean {
@@ -168,11 +188,8 @@ export class PlayerService implements IPlayerService, IUpadateService<IPlayer>, 
     CalcBeforeChangeSquare(player: IPlayer, square: number): void {
         let IdealRadius: number = this.calculateCircumcircleRadius(player, player.square)
         let ModifiedRdius: number = this.calculateCircumcircleRadius(player, player.square + square)
-        let k: number = (ModifiedRdius - IdealRadius) / IdealRadius
-        k += 1
-        for (let i = 0; i < player.RayDistances.length; i++) {
-            player.RayDistances[i] *= k
-        }
+        player.Kgrow += (ModifiedRdius - IdealRadius) / (IdealRadius * 1000)
+        player.Isquare = player.Isquare + square
 
     }
     setDirection(player: IPlayer, dir: IDirection): void {
@@ -291,13 +308,6 @@ export class PlayerService implements IPlayerService, IUpadateService<IPlayer>, 
         }
         return RayDistances;
     }
-    //ChangeSquare(player: IPlayer,square:number) :void{ 
-    //    let IdealRadius = this.calculateCircumcircleRadius(player,player.Isquare)
-    //    let ModifiedRdius = this.calculateCircumcircleRadius(player,player.Isquare + square)
-    //    player.Kgrow += (ModifiedRdius - IdealRadius) / (IdealRadius * 1000)
-    //    player.Isquare = player.Isquare + square
-//
-    //}
 
     serializeForUpdate(player: IPlayer): any {
         return {
@@ -307,7 +317,8 @@ export class PlayerService implements IPlayerService, IUpadateService<IPlayer>, 
             color: player.color,
             radius: player.radius,
             velocity: player.velocity,
-            username: player.username
+            username: player.username,
+            protected: player.Protected
         };
     }
 }

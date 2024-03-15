@@ -93,24 +93,29 @@ export class gameService implements IgameService {
                 });
                 // collision with line
                 lines.forEach(line => {
-                    let points = this.CuttingService.getcollisionPoints(player, line)
-                    if (points && player != undefined) {
-                        let res = this.CuttingService.splitPolygon(player.coordinates, points)
+                    if (player != undefined && !player.Protected) {
+                        let points = this.CuttingService.getcollisionPoints(player, line)
+                        if (points && player != undefined) {
+                            let res = this.CuttingService.splitPolygon(player.coordinates, points)
 
-                        player.coordinates = res.big
-                        const index1 = res.big.findIndex((e: any) => e === res.bigPoints[0]);
-                        const index2 = res.big.findIndex((e: any) => e === res.bigPoints[1]);
-                        let curSides = player.CurNsides - res.big.length
-                        let flag = this.PlayerService.addRaysAngles(player, curSides, index1, index2)
-                        if (!flag) {
-                            player.CurNsides = player.coordinates.length
-                            player.centroid = this.PlayerService.calculatePolygonCentroid(player)
-                            player.square = this.PlayerService.calculatePolygonArea(player)
-                            player.Angels = this.PlayerService.GetAngles(player)
-                            player.RayDistances = this.PlayerService.GetRayDistances(player)
+                            player.coordinates = res.big
+                            const index1 = res.big.findIndex((e: any) => e === res.bigPoints[0]);
+                            const index2 = res.big.findIndex((e: any) => e === res.bigPoints[1]);
+                            let curSides = player.CurNsides - res.big.length
+                            let flag = this.PlayerService.addRaysAngles(player, curSides, index1, index2)
+                            if (!flag) {
+                                player.CurNsides = player.coordinates.length
+                                player.centroid = this.PlayerService.calculatePolygonCentroid(player)
+                                player.square = this.PlayerService.calculatePolygonArea(player)
+                                player.Angels = this.PlayerService.GetAngles(player)
+                                player.RayDistances = this.PlayerService.GetRayDistances(player)
+                            }
+                            let remainder = this.RemainderRepository.CreateRemainder(player.id, res.lit, 'hsla(360, 100%, 38%, 0.62)')
+                            remainder.centroid = this.RemainderRepository.calculatePolygonCentroid(remainder)
+                            this.LineRepository.removeLine(line)
                         }
-                        let remainder = this.RemainderRepository.CreateRemainder(player.id, res.lit, 'hsla(360, 100%, 38%, 0.62)')
-                        remainder.centroid = this.RemainderRepository.calculatePolygonCentroid(remainder)
+                    }
+                    else if (this.CuttingService.getcollisionFlag(player, line)) {
                         this.LineRepository.removeLine(line)
                     }
                 })
@@ -126,8 +131,6 @@ export class gameService implements IgameService {
                     if (res && player != undefined) {
                         if (res.overlap > 1) {
                             this.PlayerService.CalcBeforeChangeSquare(player, remainder.square)
-                            player.square = this.PlayerService.calculatePolygonArea(player)
-                            player.coordinates = this.PlayerService.VerticesCoords(player);
                             this.RemainderRepository.removeRemainder(remainder)
                         }
                     }
@@ -223,10 +226,10 @@ export class gameService implements IgameService {
         }
 
     }
-    handleInputKey(socket: any, dir: IDirection,dirAngle:number): void {
+    handleInputKey(socket: any, dir: IDirection, dirAngle: number): void {
         const player = this.PlayerRepository.getPlayerById(socket.id)
         if (player) {
-            this.PlayerService.setMove(player, dir,dirAngle);
+            this.PlayerService.setMove(player, dir, dirAngle);
         }
     }
     handleShootKey(socket: any, dir: number): void {
@@ -245,6 +248,12 @@ export class gameService implements IgameService {
             //        this.LineRepository.removeLine(line)
             //}, 2500);
 
+        }
+    }
+    handleSpaceKey(socket: any) {
+        const player = this.PlayerRepository.getPlayerById(socket.id)
+        if (player) {
+            this.PlayerService.setProtect(player);
         }
     }
     generateBots(): void {
